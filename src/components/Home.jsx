@@ -3,10 +3,12 @@ import Filterbar from './Filterbar'
 import Card from './Card'
 const Home = () => {
   return (
-    <div className=' max-w-[1200px] h-full mx-auto bg-zinc-50'>
+    <div className=' max-w-[85%]  h-screen mx-auto '>
       <Filterbar></Filterbar>
-
-      <Card></Card>
+      <div className='w-full min-h-screen  flex flex-wrap justify-around gap-y-[36px] '>
+      <Card></Card><Card></Card><Card></Card><Card></Card><Card></Card><Card></Card><Card></Card><Card></Card><Card></Card>
+      </div>
+      
     </div>
   )
 }

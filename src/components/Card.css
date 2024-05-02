@@ -1,0 +1,27 @@
+.card {
+    box-sizing: border-box;
+    width: 190px;
+    height: 254px;
+    background: #ffffff;
+    font-weight: 400;   
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.22);
+    
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+  }
+  
+  .card:hover {
+    border: none;
+    transform: scale(1.05);
+  }
+  
+  
+  

@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: { 
       strokeWidth: {
-        '2': '4px',
+        '2': '2px',
       }
     },
   },
