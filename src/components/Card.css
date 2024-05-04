@@ -4,24 +4,22 @@
   height: 190px;
   margin: 0 auto;
   width: 95%;
- 
-
 }
 .secDes {
-  
   box-sizing: border-box;
   margin: auto;
   align-items: start;
   font-weight: 400;
   font-size: 14px;
- 
+
   height: 100%;
   width: 99%;
- 
-  
 
-  -webkit-mask-image: linear-gradient(0deg, transparent 16px, rgb(43, 0, 255) 60%);
-
+  -webkit-mask-image: linear-gradient(
+    0deg,
+    transparent 16px,
+    rgb(43, 0, 255) 60%
+  );
 }
 .card {
   box-sizing: border-box;

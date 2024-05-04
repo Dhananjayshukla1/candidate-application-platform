@@ -1,9 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { CardSlice } from "./Reducers/CardSlice";
-import cardreducer from "./Reducers/CardSlice";
+import CardSlice from "./Reducers/CardSlice";
+import RoleSlice from "./Reducers/RoleSlice";
 
-export const store =configureStore({
-    reducer:{
-        card: cardreducer,
-    },
-})
+export const store = configureStore({
+  reducer: {
+    cardS: CardSlice,
+    role: RoleSlice,
+  },
+});
